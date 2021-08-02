@@ -1,0 +1,2 @@
+- Para concatenar um texto com uma variável utiliza-se o '.'.
+- Com o var_dump e o print_r eu posso imprimir arrays e com o echo não.

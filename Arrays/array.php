@@ -33,7 +33,36 @@
     #var_dump($array);
     #print_r($array);
 
+    //Inserindo HTML no array:
     echo $array[0].'<hr/> <br/>'.$array[1].'<hr/> <br/>'.$array[3].'<hr/> <br/>'.$array[4].'<hr/> <br/>'.$array[5].'<hr/> <br/>'.$array[6];
     
+    //__________________________________________________________________________________________________
+
+    
+    // ATRIBUIR VALORES A UM ARRAY:
+    $Lista = [
+        1 => [
+            'Nome' => 'Lara',
+            'Idade' => 20
+        ],
+        2 => [
+            'Nome' => 'Natan',
+            'Idade' => 28
+        ],
+        3 => [
+            'Nome' => 'Damba',
+            'Idade' => 2
+        ]
+    ];
+
+    var_dump($Lista);
+
+    //_____________________________________________________________________________________
+
+    // LISTAS:
+    // Através delas pode-se atribuir valores de um array para variáveis.
+
+    // Passando uma lista de variáveis que irá receber um array com tais valores:
+    list($a, $b, $c) = array("Lara", "Natan", "Damba");
 
 ?>
