@@ -20,7 +20,9 @@
             'Valor' => 500,
             'Imagem' => 'https://www.pontofrio-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1099132903'
         ],
-    ]
+    ];
+
+    
 ?>
 
 <!DOCTYPE html>
@@ -56,7 +58,7 @@
 
 
 <body>
-    <div class="row">
+    <div class="row container">
         <div class="col-sm-12 all">
                 
                         <?php
@@ -79,7 +81,9 @@
                             array_push($lista, [
                                 'Nome' => $linha[0],
                                 'Valor' => $linha[1],
-                                'Imagem' => $linha[2].':'.$linha[3], // O explode também separou os ':' do link, e para juntar e tornar um link de novo, fazemos essa concatenação.
+                                'Estoque' => $linha[2],
+                                'Imagem' => $linha[3].':'.$linha[4], // O explode também separou os ':' do link, e para juntar e tornar um link de novo, fazemos essa concatenação.
+                                
                 
                             ]);
 
@@ -87,6 +91,10 @@
                             fclose($arquivo);
 
                             //var_dump($lista);
+
+                            function comprar($lista) {
+                                $lista['Estoque']--;
+                            }
                            
                         ?>
 
@@ -110,7 +118,8 @@
                             <div class="card-body">
                                 <h4 class="card-title"><?php echo $value['Nome']  ?></h4>
                                 <p class="card-text">R$<?php echo $value['Valor']  ?></p>
-                                <a href="#" class="btn">Comprar</a>
+                                <p class="card-text">Quantidade em estoque: <?php echo $value['Estoque']  ?></p>
+                                <a href="#" onclick=comprar() class="btn">Comprar</a>
                             </div>
                         </div> 
                         

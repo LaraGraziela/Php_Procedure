@@ -1,4 +1,5 @@
-Sofá:200:https://www.etna.com.br/medias/sys_master/images/images/h91/h41/9630883446814/0435707-01.jpg?attachment=true
-Televisão:2300:https://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1305222313
-Geladeira:3200:https://images-americanas.b2w.io/produtos/01/00/img7/01/00/item/133605/7/133605724SZ.png
-Fogão:500:https://www.pontofrio-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1099132903
+Sofá:200:254:https://www.etna.com.br/medias/sys_master/images/images/h91/h41/9630883446814/0435707-01.jpg?attachment=true
+Televisão:2300:562:https://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1305222313
+Geladeira:3200:98:https://images-americanas.b2w.io/produtos/01/00/img7/01/00/item/133605/7/133605724SZ.png
+Fogão:500:563:https://www.pontofrio-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1099132903
+Xbox Series X:4599:12:https://images.tcdn.com.br/img/img_prod/604470/console_xbox_series_x_1tb_8k_hdr_preto_1859_1_20201119171312.png
